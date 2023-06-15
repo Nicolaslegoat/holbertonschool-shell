@@ -1,2 +1,2 @@
 #!/bin/bash
-$hexadecimal=$(printf "%16x\n" "$DECIMAL")
+echo "obase=16; $DECIMAL" | bc
