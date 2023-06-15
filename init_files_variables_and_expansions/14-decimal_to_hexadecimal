@@ -1,2 +1,2 @@
 #!/bin/bash
-hexadecimal $(print "%.X" "$DECIMAL")
+printf "%.X" "$DECIMAL"
