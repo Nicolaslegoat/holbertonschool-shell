@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=16 $DECIMAL" | wc -l
+printf "%d\n" $DECIMAL | wc -l
