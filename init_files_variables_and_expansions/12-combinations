@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr 'oo' '[[:alpha:]][[:alpha:]]' | sort
+echo $PATH | tr 'oo' '[a-z][a-z]' | sort
