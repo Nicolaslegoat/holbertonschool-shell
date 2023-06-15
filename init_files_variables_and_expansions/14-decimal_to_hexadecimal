@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%16.X" "$DECIMAL"
+$hexadecimal $(printf "%16.X" "$DECIMAL")
