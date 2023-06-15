@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2d\n" "$DECIMAL"
+printf "%.16d\n" "$DECIMAL"
